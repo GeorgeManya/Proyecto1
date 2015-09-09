@@ -1,20 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
-    <title></title>
-  <link rel="shortcut icon" href="imagen/001.jpg">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="estilos/menu.css">
-</head>
-<body>
-    
-  
-
-
-
+ <%@include file="WEB-INF/fragmentos/top.jspf"%>
+ 
 <div class="container">
             <p><br/></p>
         <div class="row">
@@ -240,22 +225,4 @@
 
 
       </div>
-
-
-
-
-      <footer>
-            <div>&copy; Hecho por Hacksystem - 2015</div>
-        
-      </footer>
-
-
-
-
-  <script type="text/javascript" src="jquery/jquery-2.1.4.min.js"></script>
-
-  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"
-  ></script>
-
-</body>
-</html>
+<%@include file="WEB-INF/fragmentos/bottom.jspf"%>
